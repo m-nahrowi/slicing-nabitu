@@ -74,108 +74,312 @@ export default function Home() {
       </div>
 
       <div className="mx-48 mt-10">
-
-        <div className='bg-white w-1/3 flex flex-col shadow-2xl rounded-xl border'>
-          {/* <div>
+        <div className='flex justify-evenly space-x-6'>
+          <div className='bg-white w-1/3 flex flex-col shadow-2xl rounded-xl border'>
+            {/* <div>
             <img src='image/kasur.jpg' className='relative' alt="data " />
           </div> */}
-          <div className=''>
-            <div className='flex justify-center'>
-              <div className='flex flex-col w-full'>
-                <img src='image/kasur.jpg' className='relative w-full rounded-t-lg' alt="data " />
-                <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
-                  <div className='bg-white text-center w-full border border-green-300 rounded-md'>
-                    <p>
-                      Akan Di Mulai
+            <div className=''>
+              <div className='flex justify-center'>
+                <div className='flex flex-col w-full'>
+                  <img src='image/kasur.jpg' className='relative w-full rounded-t-lg' alt="data " />
+                  <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
+                    <div className='bg-white text-center w-full border border-green-300 rounded-md'>
+                      <p>
+                        Akan Di Mulai
+                      </p>
+                      <p>
+                        00:28:00
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className='py-7 px-5'>
+                    <div className='flex mt-16 text-xs items-center'>
+                      <p className=' mr-2'>
+                        SYIRKAH MUDHOROBAH
+                      </p>
+                      <div className='border-2 border-black rounded-full text-[5px] px-1'>
+                        <p className='text-xs'>
+                          !
+                        </p>
+                      </div>
+
+                      {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
+                    </div>
+
+                    <p className='text-green-700 font-bold'>
+                      AMK-02 RETAIL LEBARAN CHINO 2000 PCS
                     </p>
                     <p>
-                      00:28:00
+                      Ammar Kids
                     </p>
+
+                    <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
+                      <p className='text-center text-white'>
+                        100%
+                      </p>
+                    </div>
+
+                    <div className='text-xs'>
+                      <div className='flex justify-between font-bold'>
+                        <p>
+                          Kebutuhan
+                        </p>
+                        <p>
+                          Terkumpul
+                        </p>
+                      </div>
+                      <div className='flex justify-between font-bold'>
+                        <p className='text-green-800'>
+                          Rp. 298.000.000
+                        </p>
+                        <p className='text-green-800'>
+                          Rp. 144.000.000
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Periode
+                        </p>
+                        <p className='font-bold'>
+                          Dec 2021 - May 2022
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Durasi
+                        </p>
+                        <p className='font-bold'>
+                          4.9 Bulan
+                        </p>
+                      </div>
+                      <div className='flex justify-between'>
+                        <p>
+                          Proyeksi
+                        </p>
+                        <p className='font-bold'>
+                          ROI 10.00%
+                        </p>
+                      </div>
+                      <div className='flex justify-end  '>
+                        <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
+                      </div>
+                    </div>
                   </div>
+
+
+
                 </div>
-
-                <div className='py-7 px-5'>
-                  <div className='flex mt-16 text-xs items-center'>
-                    <p className=' mr-2'>
-                      SYIRKAH MUDHOROBAH
-                    </p>
-                    <div className='border-2 border-black rounded-full text-[5px] px-1'>
-                      <p className='text-xs'>
-                        !
-                      </p>
-                    </div>
-
-                    {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
-                  </div>
-
-                  <p className='text-green-700 font-bold'>
-                    AMK-02 RETAIL LEBARAN CHINO 2000 PCS
-                  </p>
-                  <p>
-                    Ammar Kids
-                  </p>
-
-                  <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
-                    <p className='text-center text-white'>
-                      100%
-                    </p>
-                  </div>
-
-                  <div className='text-xs'>
-                    <div className='flex justify-between font-bold'>
-                      <p>
-                        Kebutuhan
-                      </p>
-                      <p>
-                        Terkumpul
-                      </p>
-                    </div>
-                    <div className='flex justify-between font-bold'>
-                      <p className='text-green-800'>
-                        Rp. 298.000.000
-                      </p>
-                      <p className='text-green-800'>
-                        Rp. 144.000.000
-                      </p>
-                    </div>
-                    <div className='flex justify-between my-3'>
-                      <p>
-                        Periode
-                      </p>
-                      <p className='font-bold'>
-                        Dec 2021 - May 2022
-                      </p>
-                    </div>
-                    <div className='flex justify-between my-3'>
-                      <p>
-                        Durasi
-                      </p>
-                      <p className='font-bold'>
-                        4.9 Bulan
-                      </p>
-                    </div>
-                    <div className='flex justify-between'>
-                      <p>
-                        Proyeksi
-                      </p>
-                      <p className='font-bold'>
-                        ROI 10.00%
-                      </p>
-                    </div>
-                    <div className='flex justify-end  '>
-                      <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
-                    </div>
-                  </div>
-                </div>
-
-
-
               </div>
             </div>
+
+
           </div>
+          <div className='bg-white w-1/3 flex flex-col shadow-2xl rounded-xl border'>
+            {/* <div>
+            <img src='image/kasur.jpg' className='relative' alt="data " />
+          </div> */}
+            <div className=''>
+              <div className='flex justify-center'>
+                <div className='flex flex-col w-full'>
+                  <img src='image/kasur.jpg' className='relative w-full rounded-t-lg' alt="data " />
+                  <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
+                    <div className='bg-white text-center w-full border border-green-300 rounded-md'>
+                      <p>
+                        Akan Di Mulai
+                      </p>
+                      <p>
+                        00:28:00
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className='py-7 px-5'>
+                    <div className='flex mt-16 text-xs items-center'>
+                      <p className=' mr-2'>
+                        SYIRKAH MUDHOROBAH
+                      </p>
+                      <div className='border-2 border-black rounded-full text-[5px] px-1'>
+                        <p className='text-xs'>
+                          !
+                        </p>
+                      </div>
+
+                      {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
+                    </div>
+
+                    <p className='text-green-700 font-bold'>
+                      AMK-02 RETAIL LEBARAN CHINO 2000 PCS
+                    </p>
+                    <p>
+                      Ammar Kids
+                    </p>
+
+                    <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
+                      <p className='text-center text-white'>
+                        100%
+                      </p>
+                    </div>
+
+                    <div className='text-xs'>
+                      <div className='flex justify-between font-bold'>
+                        <p>
+                          Kebutuhan
+                        </p>
+                        <p>
+                          Terkumpul
+                        </p>
+                      </div>
+                      <div className='flex justify-between font-bold'>
+                        <p className='text-green-800'>
+                          Rp. 298.000.000
+                        </p>
+                        <p className='text-green-800'>
+                          Rp. 144.000.000
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Periode
+                        </p>
+                        <p className='font-bold'>
+                          Dec 2021 - May 2022
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Durasi
+                        </p>
+                        <p className='font-bold'>
+                          4.9 Bulan
+                        </p>
+                      </div>
+                      <div className='flex justify-between'>
+                        <p>
+                          Proyeksi
+                        </p>
+                        <p className='font-bold'>
+                          ROI 10.00%
+                        </p>
+                      </div>
+                      <div className='flex justify-end  '>
+                        <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
+                      </div>
+                    </div>
+                  </div>
 
 
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div className='bg-white w-1/3 flex flex-col shadow-2xl rounded-xl border'>
+            {/* <div>
+            <img src='image/kasur.jpg' className='relative' alt="data " />
+          </div> */}
+            <div className=''>
+              <div className='flex justify-center'>
+                <div className='flex flex-col w-full'>
+                  <img src='image/kasur.jpg' className='relative w-full rounded-t-lg' alt="data " />
+                  <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
+                    <div className='bg-white text-center w-full border border-green-300 rounded-md'>
+                      <p>
+                        Akan Di Mulai
+                      </p>
+                      <p>
+                        00:28:00
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className='py-7 px-5'>
+                    <div className='flex mt-16 text-xs items-center'>
+                      <p className=' mr-2'>
+                        SYIRKAH MUDHOROBAH
+                      </p>
+                      <div className='border-2 border-black rounded-full text-[5px] px-1'>
+                        <p className='text-xs'>
+                          !
+                        </p>
+                      </div>
+
+                      {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
+                    </div>
+
+                    <p className='text-green-700 font-bold'>
+                      AMK-02 RETAIL LEBARAN CHINO 2000 PCS
+                    </p>
+                    <p>
+                      Ammar Kids
+                    </p>
+
+                    <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
+                      <p className='text-center text-white'>
+                        100%
+                      </p>
+                    </div>
+
+                    <div className='text-xs'>
+                      <div className='flex justify-between font-bold'>
+                        <p>
+                          Kebutuhan
+                        </p>
+                        <p>
+                          Terkumpul
+                        </p>
+                      </div>
+                      <div className='flex justify-between font-bold'>
+                        <p className='text-green-800'>
+                          Rp. 298.000.000
+                        </p>
+                        <p className='text-green-800'>
+                          Rp. 144.000.000
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Periode
+                        </p>
+                        <p className='font-bold'>
+                          Dec 2021 - May 2022
+                        </p>
+                      </div>
+                      <div className='flex justify-between my-3'>
+                        <p>
+                          Durasi
+                        </p>
+                        <p className='font-bold'>
+                          4.9 Bulan
+                        </p>
+                      </div>
+                      <div className='flex justify-between'>
+                        <p>
+                          Proyeksi
+                        </p>
+                        <p className='font-bold'>
+                          ROI 10.00%
+                        </p>
+                      </div>
+                      <div className='flex justify-end  '>
+                        <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
         </div>
+
 
       </div>
       <div className='mt-32 flex justify-evenly shadow-2xl w-full px-48 border py-10'>
@@ -286,8 +490,8 @@ export default function Home() {
                 <div>
                   <p className='font-bold mt-10'>Terdaftar di :</p>
                   <div>
-                      <img src='image/logo/kominfo.png' alt='kominfo' className='w-36 mb-2 mt-3' />
-                      <img src='image/logo/AFSI.png' alt='AFSI'  className='w-36 '/>
+                    <img src='image/logo/kominfo.png' alt='kominfo' className='w-36 mb-2 mt-3' />
+                    <img src='image/logo/AFSI.png' alt='AFSI' className='w-36 ' />
                   </div>
                 </div>
                 {/* terdaftar di */}
@@ -306,8 +510,8 @@ export default function Home() {
 
                 <div>
                   <p className='font-bold mt-28'>Didukung Oleh :</p>
-                  <img src='image/logo/privy.png' alt='privy' className='w-14 mt-3'/>
-                  <img src='image/logo/bsi.png' alt='bsi' className='w-14'/>
+                  <img src='image/logo/privy.png' alt='privy' className='w-14 mt-3' />
+                  <img src='image/logo/bsi.png' alt='bsi' className='w-14' />
                 </div>
                 {/* didukung oleh */}
               </div>
@@ -315,7 +519,7 @@ export default function Home() {
 
 
           </div>
-          
+
         </div>
 
         <div className='mx-48'>
@@ -332,7 +536,7 @@ export default function Home() {
             PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
           </p>
           <p className='my-5 font-bold text-center'>
-          &copy; Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
+            &copy; Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
           </p>
         </div>
 
