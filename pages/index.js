@@ -75,10 +75,10 @@ export default function Home() {
 
       <div className="mx-48 mt-10">
 
-        <div className='bg-yellow-300 w-1/3 flex flex-col'>
-          <div>
+        <div className='bg-white w-1/3 flex flex-col shadow-2xl'>
+          {/* <div>
             <img src='image/kasur.jpg' className='relative' alt="data " />
-          </div>
+          </div> */}
           <div className='py-7 px-5'>
             <div className='flex justify-center'>
               <div className='flex flex-col w-full'>
@@ -166,9 +166,140 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+        </div>
+        <div className='mt-32 flex justify-between mx-20'>
+          <div>
+            <h1 className='text-4xl font-bold text-green-700'>
+              Jadi Member Dan Dapatkan <br /> Peluang Investasi Tanpa Riba
+            </h1>
+            <div className='flex justify-between mt-10'>
+              <p className='text-xl text-green-800 font-bold'>
+                #TumbuhTanpaRiba
+              </p>
+              <div className='bg-amber-500 rounded-md'>
+                <p className=' text-white font-bold p-2'>
+                  Ayo Mulai
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <img src="image/saham.png" alt="saham" className='w-48 h-48' />
+          </div>
+
+        </div>
+      </div>
+
+      <footer className=''>
+
+        <div className='bg-[#195A32] text-white'>
+          <div className=' mx-32 mt-14'>
+            <div className='flex justify-between'>
+              <div >
+                <h1>
+                  PT Nabitu Teknologi Islami
+                </h1>
+                <p className='w-52'>
+                  Jalan Uranus Blok CIII No. 11
+                  Komp. Margahayu Raya Barat
+                  Buah Batu, Bandung 40286
+                </p>
+                <div>
+                  <p>Socila Media</p>
+                </div>
+              </div>
+              <div>
+                <h1>
+                  Informasi Layanan
+                </h1>
+                <p>
+                  Daftarkan Proyek Investasi
+                </p>
+                <p>
+                  Ikut Investasi
+                </p>
+                <p>
+                  Akad - akad Investasi
+                </p>
+                <p>
+                  Workflow Investasi
+                </p>
+                <p>
+                  Ketentuan Pengguna
+                </p>
+                <div>
+                  <p>Dalam Proses</p>
+                </div>
+              </div>
+              <div>
+                <h1>
+                  Tentang Kami
+                </h1>
+                <p>
+                  Tentang Nabitu
+                </p>
+                <p>
+                  Latar Belakang Nabitu
+                </p>
+                <p>
+                  Our Vision and Values
+                </p>
+                <p>
+                  Partners
+                </p>
+                <p>
+                  Portofolio
+                </p>
+                <div>
+                  <p>Terdaftar di :</p>
+                </div>
+              </div>
+
+              <div>
+                <h1>
+                  Kontak
+                </h1>
+                <p>
+                  admin@nabitu.id
+                </p>
+                <p>
+                  +62 882 1111 2275
+                </p>
+
+                <div>
+                  <p>Didukung Oleh :</p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
         </div>
 
-      </div>
+        <div className='mx-48'>
+              <h1>
+                DISCLAIMER
+              </h1>
+              <p>
+                OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TiDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGAMENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM
+              </p>
+              <p>
+                INFORMASI DALAM LAYANAN URUN DANA INI PENTING DAN PERLU MENDAPAT PERHATIAN SEGERA. APABILA TERDAPAT KERAGUAN PADA TINDAKAN YANG AKAN DIAMBIL, SEBAIKNYA BERKONSULTASI DENGAN PENYELENGGARA
+              </p>
+              <p>
+                PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
+              </p>
+              <p>
+                Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
+              </p>
+            </div>
+
+
+
+      </footer>
 
 
     </div>
