@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <Image src={logo} alt="logo" className="h-5 w-5" width="90" height="45" />
         </div>
-        <div className="flex justify-evenly items-center">
+        <div className="flex justify-evenly items-center font-bold">
           <p className='px-5'>
             Investasi
           </p>
@@ -31,7 +31,7 @@ export default function Home() {
           <p className='px-5'>
             ID
           </p>
-          <p className="px-5 border-2 border-green-300 py-1 rounded-md">
+          <p className="px-5 border-2 border-green-600 py-1 rounded-md font-bold text-green-400">
             Masuk
           </p>
         </div>
@@ -79,10 +79,10 @@ export default function Home() {
           {/* <div>
             <img src='image/kasur.jpg' className='relative' alt="data " />
           </div> */}
-          <div className='py-7 px-5'>
+          <div className=''>
             <div className='flex justify-center'>
               <div className='flex flex-col w-full'>
-                <img src='image/kasur.jpg' className='relative' alt="data " />
+                <img src='image/kasur.jpg' className='relative w-full' alt="data " />
                 <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
                   <div className='bg-white text-center w-full border border-green-300 rounded-md'>
                     <p>
@@ -94,77 +94,80 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className='flex mt-3 text-xs items-center'>
-                  <p className=' mr-2'>
-                    SYIRKAH MUDHOROBAH
+                <div className='py-7 px-5'>
+                  <div className='flex mt-16 text-xs items-center'>
+                    <p className=' mr-2'>
+                      SYIRKAH MUDHOROBAH
+                    </p>
+                    <div className='border-2 border-black rounded-full text-[5px] px-1'>
+                      <p className='text-xs'>
+                        !
+                      </p>
+                    </div>
+
+                    {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
+                  </div>
+
+                  <p className='text-green-700 font-bold'>
+                    AMK-02 RETAIL LEBARAN CHINO 2000 PCS
                   </p>
-                  <div className='border-2 border-black rounded-full text-[5px] px-1'>
-                    <p className='text-xs'>
-                      !
-                    </p>
-                  </div>
-
-                  {/* <Image src={seru} alt="tanda seru" width={5} height={5} /> */}
-                </div>
-
-                <p className='text-green-700 font-bold'>
-                  AMK-02 RETAIL LEBARAN CHINO 2000 PCS
-                </p>
-                <p>
-                  Ammar Kids
-                </p>
-
-                <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
-                  <p className='text-center text-white'>
-                    100%
+                  <p>
+                    Ammar Kids
                   </p>
+
+                  <div className='w-full  bg-green-700 rounded-full shadow-2xl mt-2'>
+                    <p className='text-center text-white'>
+                      100%
+                    </p>
+                  </div>
+
+                  <div className='text-xs'>
+                    <div className='flex justify-between font-bold'>
+                      <p>
+                        Kebutuhan
+                      </p>
+                      <p>
+                        Terkumpul
+                      </p>
+                    </div>
+                    <div className='flex justify-between font-bold'>
+                      <p className='text-green-800'>
+                        Rp. 298.000.000
+                      </p>
+                      <p className='text-green-800'>
+                        Rp. 144.000.000
+                      </p>
+                    </div>
+                    <div className='flex justify-between my-3'>
+                      <p>
+                        Periode
+                      </p>
+                      <p className='font-bold'>
+                        Dec 2021 - May 2022
+                      </p>
+                    </div>
+                    <div className='flex justify-between my-3'>
+                      <p>
+                        Durasi
+                      </p>
+                      <p className='font-bold'>
+                        4.9 Bulan
+                      </p>
+                    </div>
+                    <div className='flex justify-between'>
+                      <p>
+                        Proyeksi
+                      </p>
+                      <p className='font-bold'>
+                        ROI 10.00%
+                      </p>
+                    </div>
+                    <div className='flex justify-end  '>
+                      <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
+                    </div>
+                  </div>
                 </div>
 
-                <div className='text-xs'>
-                  <div className='flex justify-between font-bold'>
-                    <p>
-                      Kebutuhan
-                    </p>
-                    <p>
-                      Terkumpul
-                    </p>
-                  </div>
-                  <div className='flex justify-between font-bold'>
-                    <p className='text-green-800'>
-                      Rp. 298.000.000
-                    </p>
-                    <p className='text-green-800'>
-                      Rp. 144.000.000
-                    </p>
-                  </div>
-                  <div className='flex justify-between my-3'>
-                    <p>
-                      Periode
-                    </p>
-                    <p className='font-bold'>
-                      Dec 2021 - May 2022
-                    </p>
-                  </div>
-                  <div className='flex justify-between my-3'>
-                    <p>
-                      Durasi
-                    </p>
-                    <p className='font-bold'>
-                      4.9 Bulan
-                    </p>
-                  </div>
-                  <div className='flex justify-between'>
-                    <p>
-                      Proyeksi
-                    </p>
-                    <p className='font-bold'>
-                      ROI 10.00%
-                    </p>
-                  </div>
-                  <div className='flex justify-end  '>
-                    <p className='text-lg mt-7 border-2 border-green-800 px-3 rounded-md bg-green-800 text-white'>Detail</p>
-                  </div>
-                </div>
 
 
               </div>
