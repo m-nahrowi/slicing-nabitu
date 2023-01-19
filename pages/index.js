@@ -288,19 +288,19 @@ export default function Home() {
         </div>
 
         <div className='mx-48'>
-          <h1>
+          <h1 className='text-green-800 font-bold text-xl mt-10'>
             DISCLAIMER
           </h1>
-          <p>
+          <p className='my-5'>
             OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TiDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGAMENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM
           </p>
-          <p>
+          <p className='my-5'>
             INFORMASI DALAM LAYANAN URUN DANA INI PENTING DAN PERLU MENDAPAT PERHATIAN SEGERA. APABILA TERDAPAT KERAGUAN PADA TINDAKAN YANG AKAN DIAMBIL, SEBAIKNYA BERKONSULTASI DENGAN PENYELENGGARA
           </p>
-          <p>
+          <p className='my-5'>
             PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
           </p>
-          <p>
+          <p className='my-5 font-bold text-center'>
             Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
           </p>
         </div>
