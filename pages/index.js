@@ -11,9 +11,9 @@ import kasur from "../public/image/kasur.jpg"
 export default function Home() {
   return (
     <div className="">
-      <nav className="flex justify-between px-24 bg-gre align-center shadow-md py-">
+      <nav className="flex justify-between px-24 bg-gre align-center shadow-md py-1">
         <div>
-          <Image src={logo} alt="logo" className="h-5 w-5" width="100" height="60" />
+          <Image src={logo} alt="logo" className="h-5 w-5" width="90" height="45" />
         </div>
         <div className="flex justify-evenly items-center">
           <p className='px-5'>
