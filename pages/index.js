@@ -207,7 +207,7 @@ export default function Home() {
           <div className=' mx-32 mt-14'>
             <div className='flex justify-between'>
               <div >
-                <h1 className='font-bold'>
+                <h1 className='font-bold mb-3'>
                   PT Nabitu Teknologi Islami
                 </h1>
                 <p className='w-52'>
@@ -215,7 +215,7 @@ export default function Home() {
                   Komp. Margahayu Raya Barat
                   Buah Batu, Bandung 40286
                 </p>
-                <div className='mt-10'>
+                <div className='mt-20'>
                   <p className='font-bold mb-5'>Socila Media</p>
                   <div className='ml-5'>
                     <div className="flex items-center">
@@ -232,9 +232,10 @@ export default function Home() {
 
                   </div>
                 </div>
+                {/* social media */}
               </div>
               <div>
-                <h1 className='font-bold'>
+                <h1 className='font-bold mb-3'>
                   Informasi Layanan
                 </h1>
                 <p>
@@ -252,12 +253,18 @@ export default function Home() {
                 <p>
                   Ketentuan Pengguna
                 </p>
+
                 <div>
-                  <p className='font-bold'>Dalam Proses</p>
+                  <p className='font-bold mt-10 mb-3'>Dalam Proses</p>
+                  <div>
+                    <img src="image/logo/OJK.png" alt='OJK' className='w-24' />
+                  </div>
                 </div>
+                {/* dalam proses */}
+
               </div>
               <div>
-                <h1 className='font-bold'>
+                <h1 className='font-bold mb-3'>
                   Tentang Kami
                 </h1>
                 <p>
@@ -275,9 +282,15 @@ export default function Home() {
                 <p>
                   Portofolio
                 </p>
+
                 <div>
-                  <p className='font-bold'>Terdaftar di :</p>
+                  <p className='font-bold mt-10'>Terdaftar di :</p>
+                  <div>
+                      <img src='image/logo/kominfo.png' alt='kominfo' className='w-36 mb-2 mt-3' />
+                      <img src='image/logo/AFSI.png' alt='AFSI'  className='w-36 '/>
+                  </div>
                 </div>
+                {/* terdaftar di */}
               </div>
 
               <div>
@@ -292,13 +305,17 @@ export default function Home() {
                 </p>
 
                 <div>
-                  <p className='font-bold'>Didukung Oleh :</p>
+                  <p className='font-bold mt-28'>Didukung Oleh :</p>
+                  <img src='image/logo/privy.png' alt='privy' className='w-14 mt-3'/>
+                  <img src='image/logo/bsi.png' alt='bsi' className='w-14'/>
                 </div>
+                {/* didukung oleh */}
               </div>
             </div>
 
 
           </div>
+          
         </div>
 
         <div className='mx-48'>
@@ -315,7 +332,7 @@ export default function Home() {
             PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
           </p>
           <p className='my-5 font-bold text-center'>
-            Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
+          &copy; Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
           </p>
         </div>
 
