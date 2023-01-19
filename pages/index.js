@@ -82,7 +82,7 @@ export default function Home() {
           <div className=''>
             <div className='flex justify-center'>
               <div className='flex flex-col w-full'>
-                <img src='image/kasur.jpg' className='relative w-full' alt="data " />
+                <img src='image/kasur.jpg' className='relative w-full rounded-t-lg' alt="data " />
                 <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
                   <div className='bg-white text-center w-full border border-green-300 rounded-md'>
                     <p>
@@ -176,7 +176,9 @@ export default function Home() {
 
 
         </div>
-        <div className='mt-32 flex justify-between mx-20'>
+        
+      </div>
+      <div className='mt-32 flex justify-evenly shadow-2xl w-full px-48 border py-10'>
           <div>
             <h1 className='text-4xl font-bold text-green-700'>
               Jadi Member Dan Dapatkan <br /> Peluang Investasi Tanpa Riba
@@ -198,11 +200,10 @@ export default function Home() {
           </div>
 
         </div>
-      </div>
 
       <footer className=''>
 
-        <div className='bg-[#195A32] text-white'>
+        <div className='bg-[#195A32] text-white py-1'>
           <div className=' mx-32 mt-14'>
             <div className='flex justify-between'>
               <div >
