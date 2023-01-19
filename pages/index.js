@@ -38,15 +38,15 @@ export default function Home() {
       </nav>
 
       <div className="text-center mt-10">
-        <p className="text-xl font-bold text-green-600">
+        <p className="text-2xl font-bold text-green-800">
           Daftar Proyek
         </p>
-        <p>
+        <p className='text-lg'>
           Temukan proyek untuk didanai !
         </p>
       </div>
-      <div className='flex justify-between mx-48 mt-10 bg-green-400'>
-        <div className='flex bg-red-300'>
+      <div className='flex justify-between mx-48 mt-10'>
+        <div className='flex'>
           <div className='bg-white mr-9'>
             <select name="choice" className='bg-white border-2 rounded-md w-40 py-1'>
               <option value="first">First Value</option>
@@ -62,7 +62,7 @@ export default function Home() {
             </select>
           </div>
         </div>
-        <div className='flex bg-yellow-400'>
+        <div className='flex'>
           <div className='bg-white items-center flex'>
             <Image src={hijau} alt="kotak" width={32} height={35} />
           </div>
