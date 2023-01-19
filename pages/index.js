@@ -75,21 +75,25 @@ export default function Home() {
 
       <div className="mx-48 mt-10">
 
-        <div className='bg-white w-1/3 flex flex-col shadow-2xl'>
+        <div className='bg-white w-1/3 flex flex-col shadow-2xl rounded-xl border'>
           {/* <div>
             <img src='image/kasur.jpg' className='relative' alt="data " />
           </div> */}
           <div className='py-7 px-5'>
             <div className='flex justify-center'>
               <div className='flex flex-col w-full'>
-                <div className='bg-green-300 text-center w-full rounded-lg py-3'>
-                  <p>
-                    Akan Di Mulai
-                  </p>
-                  <p>
-                    00:28:00
-                  </p>
+                <img src='image/kasur.jpg' className='relative' alt="data " />
+                <div className='rounded-lg py-3 mt-[-150px] z-20 px-9'>
+                  <div className='bg-white text-center w-full border border-green-300 rounded-md'>
+                    <p>
+                      Akan Di Mulai
+                    </p>
+                    <p>
+                      00:28:00
+                    </p>
+                  </div>
                 </div>
+
                 <div className='flex mt-3 text-xs items-center'>
                   <p className=' mr-2'>
                     SYIRKAH MUDHOROBAH
@@ -275,27 +279,27 @@ export default function Home() {
               </div>
             </div>
 
-            
+
           </div>
         </div>
 
         <div className='mx-48'>
-              <h1>
-                DISCLAIMER
-              </h1>
-              <p>
-                OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TiDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGAMENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM
-              </p>
-              <p>
-                INFORMASI DALAM LAYANAN URUN DANA INI PENTING DAN PERLU MENDAPAT PERHATIAN SEGERA. APABILA TERDAPAT KERAGUAN PADA TINDAKAN YANG AKAN DIAMBIL, SEBAIKNYA BERKONSULTASI DENGAN PENYELENGGARA
-              </p>
-              <p>
-                PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
-              </p>
-              <p>
-                Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
-              </p>
-            </div>
+          <h1>
+            DISCLAIMER
+          </h1>
+          <p>
+            OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TiDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGAMENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM
+          </p>
+          <p>
+            INFORMASI DALAM LAYANAN URUN DANA INI PENTING DAN PERLU MENDAPAT PERHATIAN SEGERA. APABILA TERDAPAT KERAGUAN PADA TINDAKAN YANG AKAN DIAMBIL, SEBAIKNYA BERKONSULTASI DENGAN PENYELENGGARA
+          </p>
+          <p>
+            PENERBIT DAN PENYELENGGARA, BAIK SENDIRI SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI
+          </p>
+          <p>
+            Nabitu Website ver 1.1.0 | Copyright 2022, All Rights Reserved
+          </p>
+        </div>
 
 
 
