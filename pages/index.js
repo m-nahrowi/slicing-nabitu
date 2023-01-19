@@ -176,30 +176,30 @@ export default function Home() {
 
 
         </div>
-        
+
       </div>
       <div className='mt-32 flex justify-evenly shadow-2xl w-full px-48 border py-10'>
-          <div>
-            <h1 className='text-4xl font-bold text-green-700'>
-              Jadi Member Dan Dapatkan <br /> Peluang Investasi Tanpa Riba
-            </h1>
-            <div className='flex justify-between mt-10'>
-              <p className='text-xl text-green-800 font-bold'>
-                #TumbuhTanpaRiba
+        <div>
+          <h1 className='text-4xl font-bold text-green-700'>
+            Jadi Member Dan Dapatkan <br /> Peluang Investasi Tanpa Riba
+          </h1>
+          <div className='flex justify-between mt-10'>
+            <p className='text-xl text-green-800 font-bold'>
+              #TumbuhTanpaRiba
+            </p>
+            <div className='bg-amber-500 rounded-md'>
+              <p className=' text-white font-bold p-2'>
+                Ayo Mulai
               </p>
-              <div className='bg-amber-500 rounded-md'>
-                <p className=' text-white font-bold p-2'>
-                  Ayo Mulai
-                </p>
-              </div>
-
             </div>
-          </div>
-          <div>
-            <img src="image/saham.png" alt="saham" className='w-48 h-48' />
-          </div>
 
+          </div>
         </div>
+        <div>
+          <img src="image/saham.png" alt="saham" className='w-48 h-48' />
+        </div>
+
+      </div>
 
       <footer className=''>
 
@@ -207,7 +207,7 @@ export default function Home() {
           <div className=' mx-32 mt-14'>
             <div className='flex justify-between'>
               <div >
-                <h1>
+                <h1 className='font-bold'>
                   PT Nabitu Teknologi Islami
                 </h1>
                 <p className='w-52'>
@@ -215,12 +215,26 @@ export default function Home() {
                   Komp. Margahayu Raya Barat
                   Buah Batu, Bandung 40286
                 </p>
-                <div>
-                  <p>Socila Media</p>
+                <div className='mt-10'>
+                  <p className='font-bold mb-5'>Socila Media</p>
+                  <div className='ml-5'>
+                    <div className="flex items-center">
+                      <img className='w-5 h-5 mr-2' src="image/logo/facebook.png" alt='fb' />
+                      <img className='w-7 h-7' src="image/logo/instagram.png" alt='ig' />
+                    </div>
+                    <div className='flex mb-10 mt-1'>
+                      <img className='w-6 h-6 mr-2' src="image/logo/linkedin.png" alt='ln' />
+                      <img className='w-6 h-6' src="image/logo/tiktok.png" alt='tk' />
+                    </div>
+                  </div>
+
+                  <div>
+
+                  </div>
                 </div>
               </div>
               <div>
-                <h1>
+                <h1 className='font-bold'>
                   Informasi Layanan
                 </h1>
                 <p>
@@ -239,11 +253,11 @@ export default function Home() {
                   Ketentuan Pengguna
                 </p>
                 <div>
-                  <p>Dalam Proses</p>
+                  <p className='font-bold'>Dalam Proses</p>
                 </div>
               </div>
               <div>
-                <h1>
+                <h1 className='font-bold'>
                   Tentang Kami
                 </h1>
                 <p>
@@ -262,12 +276,12 @@ export default function Home() {
                   Portofolio
                 </p>
                 <div>
-                  <p>Terdaftar di :</p>
+                  <p className='font-bold'>Terdaftar di :</p>
                 </div>
               </div>
 
               <div>
-                <h1>
+                <h1 className='font-bold'>
                   Kontak
                 </h1>
                 <p>
@@ -278,7 +292,7 @@ export default function Home() {
                 </p>
 
                 <div>
-                  <p>Didukung Oleh :</p>
+                  <p className='font-bold'>Didukung Oleh :</p>
                 </div>
               </div>
             </div>
